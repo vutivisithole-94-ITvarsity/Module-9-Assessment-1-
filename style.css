@@ -1,0 +1,61 @@
+body{
+    background-color:darkblue;
+    font-family: "Releway", sans-serif;
+    text-align: center;
+    border: 50%;
+}
+
+.container{
+    width: 100%;
+}
+
+p{
+    color: white;
+    font-size: 10vw;
+}
+
+#clock{
+    width: 100;
+    text-align: center;
+}
+
+#progressBarContainer{
+   transform: rotate(180deg);
+    border: 20%;
+}
+
+.buttonSection{
+    width: 100%;
+    padding-top: 5rem;
+    
+}
+
+.roundButton{
+    border-radius: .5rem;
+    background-color: white;
+    border: 0;
+    width: 5rem;
+    height: 5rem;
+    font-size: 1rem;
+}
+
+.button1{
+    float: left;
+    width: 49%;
+}
+
+.button2{
+    float: right;
+    width: 49%;
+}
+.selector{
+    background-color: white;
+    padding: .8rem 1.4rem .9rem .8rem;
+    width: 30%;
+    border-radius: .5rem;
+    -moz-appearance: none;
+    -wibkit-appearance: none;
+    appearance: none;
+    font-size: 1rem;
+    text-align: center;
+}
